@@ -3,6 +3,9 @@
 Research-grade, reproducible work on The Pokémon Company's **PTCG AI Battle
 Challenge** (Simulation + Strategy categories on Kaggle).
 
+> **Read the Kaggle Strategy write-up:**
+> [Pokémon TCG AI Battle Challenge Strategy](https://www.kaggle.com/competitions/pokemon-tcg-ai-battle-challenge-strategy/writeups/new-writeup-1788697919530)
+
 > **Final frozen configuration:** EXP-008-L1.0 · **Deck:** Pikachu Aggro ·
 > **Local REAL_CABT result:** 29.2% vs. random (n=120) · **Legal errors:** 0
 >
