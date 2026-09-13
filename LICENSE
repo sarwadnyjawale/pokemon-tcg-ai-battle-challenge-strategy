@@ -9,14 +9,12 @@ for this challenge. It also wraps the official **CABT** Python engine
 third-party competition component distributed under its own terms and **is not**
 part of the original contribution here.
 
-**No license grants redistribution of the competition engine or dataset.** The
-CABT engine (`cg.dll` and its bindings) and the competition card dataset are
-third-party / competition assets. Unless their own license expressly permits
-redistribution, these components **must not be mirrored** in this repository.
-See [`docs/DATASET.md`](docs/DATASET.md) for what must be downloaded from
-Kaggle and where the repository expects it, and
-[`docs/ENGINE_LIMITATION.md`](docs/ENGINE_LIMITATION.md) for the engine
-capability audit.
+**Competition components remain subject to their own terms.** The CABT engine
+(`cg.dll` and its bindings) is a third-party competition asset and is not
+included in this repository. The included English card-metadata CSV files are
+provided only for project reproducibility; users must comply with the
+competition's data terms and obtain any additional assets from the official
+competition distribution.
 
 **Limitation of use.** This code is made available so that the competition
 strategy, evidence, and reproducibility methodology can be inspected. The
@@ -28,6 +26,6 @@ Third-party component attributions:
 - `kaggle_environments` (CABT engine bindings): Copyright (c) their respective
   authors; distributed under its own license. Bundled engine binaries are
   competition assets, not part of the original work here.
-- Card dataset: provided under the competition's dataset terms. The CSVs/PDF
-  expected by this repository are **not redistributed**; see
-  `docs/DATASET.md` for acquisition instructions.
+- Card dataset: provided under the competition's dataset terms. The two small
+  English metadata CSVs included here support the tests; the 131 MB PDF and
+  all other restricted assets are not redistributed.
