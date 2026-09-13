@@ -1,0 +1,8 @@
+{
+  "project": "pokemon-tcg-ai-strategy",
+  "phase": "bootstrap",
+  "competition": "pokemon-tcg-ai-battle-challenge-strategy",
+  "simulation_entered": false,
+  "official_simulation_result": null,
+  "note": "No official Simulation leaderboard entry exists for this project."
+}

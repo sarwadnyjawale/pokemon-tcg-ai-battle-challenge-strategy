@@ -1,0 +1,7 @@
+numpy>=1.26
+pytest>=8
+
+# Real competition simulator (bundles the cabt engine incl. Windows cg.dll).
+# Install with --no-deps on Python 3.14/Windows if pygame build fails:
+#   pip install --no-deps kaggle-environments==1.32.7
+kaggle-environments>=1.32

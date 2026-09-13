@@ -1,0 +1,33 @@
+# PTCG AI Battle Challenge — Strategy Research
+
+This project is competition-research code developed for the **Pokémon TCG AI
+Battle Challenge** (Kaggle Simulation + Strategy tracks).
+
+**Ownership notice.** This repository contains original research code authored
+for this challenge. It also wraps the official **CABT** Python engine
+(`kaggle-environments` → `kaggle_environments.envs.cabt`), which is a
+third-party competition component distributed under its own terms and **is not**
+part of the original contribution here.
+
+**No license grants redistribution of the competition engine or dataset.** The
+CABT engine (`cg.dll` and its bindings) and the competition card dataset are
+third-party / competition assets. Unless their own license expressly permits
+redistribution, these components **must not be mirrored** in this repository.
+See [`docs/DATASET.md`](docs/DATASET.md) for what must be downloaded from
+Kaggle and where the repository expects it, and
+[`docs/ENGINE_LIMITATION.md`](docs/ENGINE_LIMITATION.md) for the engine
+capability audit.
+
+**Limitation of use.** This code is made available so that the competition
+strategy, evidence, and reproducibility methodology can be inspected. The
+author grants no license to use this code to re-enter or re-derive a
+competition submission on their behalf, and makes no warranty of any kind.
+
+Third-party component attributions:
+
+- `kaggle_environments` (CABT engine bindings): Copyright (c) their respective
+  authors; distributed under its own license. Bundled engine binaries are
+  competition assets, not part of the original work here.
+- Card dataset: provided under the competition's dataset terms. The CSVs/PDF
+  expected by this repository are **not redistributed**; see
+  `docs/DATASET.md` for acquisition instructions.

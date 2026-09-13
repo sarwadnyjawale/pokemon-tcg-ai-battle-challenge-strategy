@@ -1,0 +1,29 @@
+{
+  "project": "PTCG AI Battle Challenge",
+  "status": "FINAL_SUBMISSION_FREEZE",
+  "simulation_entered": false,
+  "tests_passing": 300,
+  "legal_errors": 0,
+  "final_agent": "EXP-008-L1.0",
+  "final_deck": "Pikachu Aggro",
+  "benchmarks": {
+    "n_games": 120,
+    "vs_random_wr": 0.292,
+    "vs_random_ci": [0.218, 0.378],
+    "vs_first_wr": 0.067,
+    "vs_first_ci": [0.034, 0.126],
+    "mean_attacks": 2.9,
+    "zero_attack_rate": 0.475,
+    "latency_ms": 0.04
+  },
+  "provenance_verified": true,
+  "report_word_count_estimate": 1782,
+  "files_ready": [
+    "results/final_submission/final_architecture.md",
+    "results/final_submission/evidence_table.md",
+    "results/final_submission/deck_validation.json",
+    "results/final_submission/provenance_audit.json",
+    "results/final_submission/submission_checklist.md",
+    "docs/final/strategy_report.md"
+  ]
+}
